@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Russo+One&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body header {
+  width: 100%;
+  height: 100%;
+  background-color: #fddb6d;
+}
+
+body header nav {
+  background-color: #fddb6d;
+  color: black;
+  height: 100px;
+}
+
+body header nav h1 {
+  display: inline;
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  margin-left: 20px;
+  top: 30px;
+  padding: 0 30px;
+  font-size: 42px;
+}
+
+body header nav ul {
+  text-align: right;
+  list-style: none;
+}
+
+body header nav ul li {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+body header nav ul li a {
+  display: block;
+  padding: 7px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+body header nav ul li a:hover {
+  background-color: black;
+  color: #fddb6d;
+}
+
+body main {
+  background: #c6b990;
+  margin: 0;
+  padding: 0;
+}
+
+body main .tagline {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  background: white;
+}
+
+body main .tagline h3 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+}
+
+body main .isi {
+  background: #c6b990;
+}
+
+body main .isi section {
+  width: 960px;
+}
+
+body main .isi article {
+  width: 70/100;
+  background: #c6b990;
+  padding: 15px;
+}
+
+body main .isi aside {
+  width: 30/100;
+  background: #9d926c;
+  text-align: center;
+}
+
+body footer {
+  width: 100%;
+  display: inline-block;
+  background: #fddb6d;
+  margin: 0;
+  padding: 20px;
+}
+
+body footer ul {
+  list-style: none;
+}
+
+body footer ul li {
+  display: block;
+  margin-left: -40px;
+}
+
+body footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=coba.css.map */
